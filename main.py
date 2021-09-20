@@ -3,8 +3,8 @@ import requests
 # Auth stored in cookies. ESPN user must have access to the league (obvi!)
 # Settings >> Privacy and Security >> Site Settings >> Cookies >>
 # >> See All Cookies and Site Data >> Search 'ESPN' (not espn fantasy) >> copy content SWID & espn_2
-swid = '{115342BB-C82B-4AA8-BEA5-AB49C4B443B8}'
-espn_s2 = 'AECXWbg1ZB%2BdzoAmB6yNM3fwkcwRZDfvn9jR6U06BZxyJAdAY1BzCDNBXWuB8rQkvoghX0kQO%2BOSvYv7Lh7DfbjaSsCMMSjbrFXtN5HQfK2p7xen7dfe44bNXLB6FlVJQLTvEG8ZAkaEBbfUorcRydaGS%2Bm62aFYJ%2Bo%2BESt50%2FRZ6FNzQ0clZSCoS%2Fwc6lEYMekwMLqx%2F1FCAnZJrqaEi1aRGeE56C6bo6KId6PqzH0VTb4EyXK%2BV6DGL9I9QGDVBb6rPmujflqDUZLSIHL0HeaecQp2AWTZklfTzrczMavPUQ%3D%3D'
+swid = #Your SWID
+espn_s2 = #Your ESPN
 
 # URL to private fantasy league
 url = 'https://fantasy.espn.com/apis/v3/games/ffl/seasons/2021/segments/0/leagues/1039705048?scoringPeriodId=1&view=kona_player_info'
